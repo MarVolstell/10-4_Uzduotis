@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: "Merriweather", sans-serif;
+}
+html, body, .container { height: 100%; width: 100%; margin: 0; }
+main, section, header {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 50px;
+}
+
+header, .larger {
+    float: left;
+    width: 50%;
+}
+header, .smaller{
+    height: 35%;
+}
+.smaller, main {
+    float: right;
+    width: 50%;
+}
+main, .larger {
+    height: 65%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-transform: uppercase;
+}
+a{ /* I HAVE NO IDEA HOW TO DO THIS */
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 3px;
+    display:inline-block;
+    position: relative;
+    left: 500px;
+    top: 37px;
+}
